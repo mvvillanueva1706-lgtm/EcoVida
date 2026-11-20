@@ -1,8 +1,0 @@
-{
-  "name": "EcoVida",
-  "short_name": "EcoVida",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2f75b5"
-}
