@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoVida</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+
+    <h1><img src="imagenes/logo.webp" alt="Logo del sitio" width="32" height="32">EcoVida</h1>
+    <h3>Campaña escolar de cuidado del ambiente</h3>
+
+    <p>Consejos prácticos para proteger nuestro planeta:</p>
+
+    <p>1. Reducir el uso de plásticos descartables y optar por elementos reutilizables.</p>
+    <p>2. Ahorrar agua cerrando la canilla mientras nos cepillamos los dientes.</p>
+    <p>3. Separar los residuos en origen para facilitar el reciclaje.</p>
+
+    <img src="imagenes/imagen3.webp" alt="Manos sosteniendo una planta pequeña" loading="lazy">
+    <img src="imagenes/imagen2.webp" alt="Imagen de naturaleza" loading="lazy">
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js");
+        }
+    </script>
+</body>
+</html>
